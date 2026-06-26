@@ -23,7 +23,8 @@ This research analyzes public sentiment on Twitter by comparing three classifica
 
 ## Key Findings
 
-- **RoBERTa** identified **joy** as the dominant emotion in Trump-related tweets (72%) and Biden-related tweets (49%), diverging from lexicon-based methods
+- **Biden** discourse showed to be **~60%** more negative than discourse surrounding Trump -- offering evidence for a potential **algorithmic bias** favoring Trump
+-  **RoBERTa** identified **joy** as the dominant emotion in Trump-related tweets (72%) and Biden-related tweets (49%), diverging from lexicon-based methods
 - **NRCLex** found **surprise** dominant in Trump tweets and **positive** dominant in Biden tweets
 - **TextBlob** classified the majority of tweets in both datasets as Neutral, highlighting limitations of rule-based polarity scoring
 - The discrepancy between methods underscores how model architecture and training data influence sentiment classification
